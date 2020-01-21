@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 980px;
+            
+        }
+        .auto-style2 {
+            width: 320px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td colspan="2">
+                    <asp:Image ID="Image1" runat="server" />
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/img1.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    <asp:BulletedList ID="BulletedList1" runat="server" DisplayMode="HyperLink" OnClick="BulletedList1_Click">
+                        <asp:ListItem Value="page1.aspx">國內訂房</asp:ListItem>
+                        <asp:ListItem Value="page2.aspx">國外訂房</asp:ListItem>
+                        <asp:ListItem Value="page3.aspx">團體旅遊</asp:ListItem>
+                        <asp:ListItem Value="page4.aspx">熱門推薦</asp:ListItem>
+                        <asp:ListItem Value="page5.aspx">單車旅行</asp:ListItem>
+                    </asp:BulletedList>
+                </td>
+                <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">快樂出版社<br />
+                    服務電話：0800-000-001</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

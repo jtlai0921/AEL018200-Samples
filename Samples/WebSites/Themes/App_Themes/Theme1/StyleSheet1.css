@@ -1,0 +1,17 @@
+﻿body{
+  background-color:lightyellow;
+  color:blue;
+}
+
+A{
+  color:orange
+}
+
+A:hover{
+  color:fuchsia
+}
+
+A:visited{
+  color:green
+}
+

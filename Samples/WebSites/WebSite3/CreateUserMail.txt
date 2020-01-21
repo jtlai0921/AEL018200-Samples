@@ -1,0 +1,7 @@
+﻿Dear <b><%UserName%></b>：<br><br>
+　您的帳戶資料如下：<br><br>
+　密碼：<b><%Password%></b><br>
+　電子郵件：<b><%Email%></b><br>
+　安全性問題：<b><%Question%></b><br>
+　安全性答案：<b><%Answer%></b><br><br>
+翠墨資訊工作室  敬上

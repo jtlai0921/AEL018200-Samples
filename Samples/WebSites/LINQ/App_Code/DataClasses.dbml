@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Grades" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Grades.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GradesConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.成績單" Member="成績單">
+    <Type Name="成績單">
+      <Column Name="學號" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="國文" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="數學" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="英文" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

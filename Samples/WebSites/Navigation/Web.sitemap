@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="美食網"  description="美食網首頁">
+      <siteMapNode url="Drink.aspx" title="飲品"  description="飲品介紹">
+        <siteMapNode url="Coffee.aspx" title="咖啡"  description="咖啡" />
+        <siteMapNode url="Tea.aspx" title="茶"  description="茶" />
+      </siteMapNode>
+      <siteMapNode url="Dessert.aspx" title="甜點"  description="甜點介紹">
+        <siteMapNode url="Cookie.aspx" title="餅乾"  description="餅乾" />
+        <siteMapNode url="Cake.aspx" title="蛋糕"  description="蛋糕" />
+        <siteMapNode url="Macaron.aspx" title="馬卡龍"  description="馬卡龍" />        
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
